@@ -1,0 +1,1 @@
+Most of the configuration is removed.  Probe protection is removed for simplicity.  Does a simple OR on the PROBE and TLS signals.
