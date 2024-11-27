@@ -418,3 +418,6 @@
     #define LASER_PWM_PORT            ((GPIO_TypeDef *)LASER_PWM_PORT_BASE)
     #define LASER_PWM_AF              timerAF(LASER_PWM_TIMER_N, LASER_PWM_TIMER_AF)
     #define LASER_PWM_CLOCK_ENA       timerCLKENA(LASER_PWM_TIMER_N)
+
+    #define timerCLKENA(t) timercken(t)
+    #define timercken(t) __HAL_RCC_TIM ## t ## _CLK_ENABLE
