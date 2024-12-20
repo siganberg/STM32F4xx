@@ -36,6 +36,7 @@ lib_deps =
   FatFs
   sdcard
   spindle
+  plugins
   embroidery
   Drivers/FATFS/App
   Drivers/FATFS/Target
@@ -58,6 +59,7 @@ build_flags =
 lib_deps =
    lwip
    networking
+   webui
 lib_extra_dirs =
 
 [env]
